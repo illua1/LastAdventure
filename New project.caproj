@@ -1,0 +1,1557 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1umzaltga4wti</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+        <effect author="Scirra" id="hsladjust">Adjust HSL</effect>
+        <effect author="Scirra" id="tint">Tint</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>900</width>
+        <height>450</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Load</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Object3d" sid="790847594763498">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Type" sid="351940374296609" type="number" />
+                <instance-variable name="Rotate" sid="859115327959458" type="number" />
+                <instance-variable name="lightDistance" sid="645164249095115" type="number" />
+                <instance-variable name="UIDAppend" sid="347043605395860" type="number" />
+                <instance-variable name="SortUse" sid="858409006906999" type="boolean" />
+                <instance-variable name="Z" sid="721097455662502" type="number" />
+                <instance-variable name="Zsort" sid="939029005187868" type="number" />
+                <instance-variable name="R" sid="795556049402966" type="number" />
+                <instance-variable name="G" sid="462441751635454" type="number" />
+                <instance-variable name="B" sid="761235886087510" type="number" />
+            </instance-variables>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
+                <effect-type name="Tint">
+                    <effect id="tint" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="8" loop="0" name="floor" pingpong="0" repeatcount="1" repeatto="0" sid="680120735438434" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10002.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10003.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10004.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10005.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\floor\redriwe\10001.png">
+                        <collision-poly>
+                            <point x="0.496" y="0.496" />
+                            <point x="0.504" y="0.496" />
+                            <point x="0.51" y="0.5" />
+                            <point x="0.782" y="0.782" />
+                            <point x="0.5" y="0.984" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.49" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_simple_front" pingpong="0" repeatcount="1" repeatto="0" sid="495617761661426" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple\2\10002.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple\2\10006.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple\2\10005.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple\2\10004.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple\2\10003.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="wall_simple_up" pingpong="0" repeatcount="1" repeatto="0" sid="178225906634890" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple-up\2\10002.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple-up\2\10001.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple-up\2\10004.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-simple-up\2\10003.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_simple_up_maxe" pingpong="0" repeatcount="1" repeatto="0" sid="333616397497120" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10003.png">
+                        <collision-poly>
+                            <point x="0.276" y="0.276" />
+                            <point x="0.5" y="0.228" />
+                            <point x="0.682" y="0.318" />
+                            <point x="0.682" y="0.5" />
+                            <point x="0.572" y="0.572" />
+                            <point x="0.428" y="0.572" />
+                            <point x="0.192" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10002.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.3" />
+                            <point x="0.5" y="0.218" />
+                            <point x="0.666" y="0.334" />
+                            <point x="0.696" y="0.5" />
+                            <point x="0.582" y="0.582" />
+                            <point x="0.384" y="0.616" />
+                            <point x="0.258" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10001.png">
+                        <collision-poly>
+                            <point x="0.272" y="0.272" />
+                            <point x="0.728" y="0.272" />
+                            <point x="0.742" y="0.5" />
+                            <point x="0.5" y="0.584" />
+                            <point x="0.404" y="0.596" />
+                            <point x="0.258" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10008.png">
+                        <collision-poly>
+                            <point x="0.334" y="0.334" />
+                            <point x="0.5" y="0.216" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.704" y="0.5" />
+                            <point x="0.594" y="0.594" />
+                            <point x="0.5" y="0.58" />
+                            <point x="0.418" y="0.582" />
+                            <point x="0.302" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10007.png">
+                        <collision-poly>
+                            <point x="0.32" y="0.32" />
+                            <point x="0.5" y="0.228" />
+                            <point x="0.764" y="0.236" />
+                            <point x="0.686" y="0.5" />
+                            <point x="0.568" y="0.568" />
+                            <point x="0.432" y="0.568" />
+                            <point x="0.32" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10006.png">
+                        <collision-poly>
+                            <point x="0.298" y="0.298" />
+                            <point x="0.5" y="0.208" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.696" y="0.5" />
+                            <point x="0.584" y="0.584" />
+                            <point x="0.5" y="0.582" />
+                            <point x="0.388" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10005.png">
+                        <collision-poly>
+                            <point x="0.278" y="0.278" />
+                            <point x="0.5" y="0.216" />
+                            <point x="0.722" y="0.278" />
+                            <point x="0.742" y="0.5" />
+                            <point x="0.526" y="0.526" />
+                            <point x="0.474" y="0.526" />
+                            <point x="0.258" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up-maxe\2\10004.png">
+                        <collision-poly>
+                            <point x="0.298" y="0.298" />
+                            <point x="0.5" y="0.218" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.614" y="0.5" />
+                            <point x="0.5" y="0.582" />
+                            <point x="0.416" y="0.584" />
+                            <point x="0.3" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_allface" pingpong="0" repeatcount="1" repeatto="0" sid="265357985074462" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-face\2\10004.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-face\2\10003.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-face\2\10002.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-face\2\10006.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-face\2\10005.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="wall_allface_up" pingpong="0" repeatcount="1" repeatto="0" sid="176072003735337" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up\2\10002.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up\2\10003.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up\2\10004.png">
+                        <collision-poly>
+                            <point x="0.256" y="0.572" />
+                            <point x="0.739999" y="0.57" />
+                            <point x="0.738" y="0.913999" />
+                            <point x="0.256" y="0.912" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-single-up\2\10005.png">
+                        <collision-poly>
+                            <point x="0.744" y="0.912" />
+                            <point x="0.262" y="0.913999" />
+                            <point x="0.260001" y="0.57" />
+                            <point x="0.744" y="0.572" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_pick_face_l" pingpong="0" repeatcount="1" repeatto="0" sid="626374482577662" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-l\2\10004.png">
+                        <collision-poly>
+                            <point x="0.528" y="0.528" />
+                            <point x="0.472" y="0.528" />
+                            <point x="0.742" y="0.742" />
+                            <point x="0.5" y="0.912" />
+                            <point x="0.29" y="0.71" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-l\2\10003.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.58" />
+                            <point x="0.814" y="0.5" />
+                            <point x="0.782" y="0.782" />
+                            <point x="0.5" y="0.982" />
+                            <point x="0.612" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-l\2\10002.png">
+                        <collision-poly>
+                            <point x="0.71" y="0.71" />
+                            <point x="0.694" y="0.306" />
+                            <point x="0.73" y="0.5" />
+                            <point x="0.742" y="0.742" />
+                            <point x="0.682" y="0.318" />
+                            <point x="0.682" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-l\2\10006.png">
+                        <collision-poly>
+                            <point x="0.31" y="0.31" />
+                            <point x="0.294" y="0.706" />
+                            <point x="0.318" y="0.5" />
+                            <point x="0.318" y="0.318" />
+                            <point x="0.258" y="0.742" />
+                            <point x="0.272" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-l\2\10005.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.58" />
+                            <point x="0.452" y="0.548" />
+                            <point x="0.388" y="0.5" />
+                            <point x="0.5" y="0.974" />
+                            <point x="0.218" y="0.782" />
+                            <point x="0.218" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_pick_face_r" pingpong="0" repeatcount="1" repeatto="0" sid="184405770388544" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-r\2\10004.png">
+                        <collision-poly>
+                            <point x="0.528" y="0.528" />
+                            <point x="0.472" y="0.528" />
+                            <point x="0.71" y="0.71" />
+                            <point x="0.5" y="0.912" />
+                            <point x="0.258" y="0.742" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-r\2\10003.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.58" />
+                            <point x="0.782" y="0.5" />
+                            <point x="0.782" y="0.782" />
+                            <point x="0.5" y="0.982" />
+                            <point x="0.612" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-r\2\10002.png">
+                        <collision-poly>
+                            <point x="0.706" y="0.706" />
+                            <point x="0.69" y="0.31" />
+                            <point x="0.728" y="0.5" />
+                            <point x="0.742" y="0.742" />
+                            <point x="0.682" y="0.318" />
+                            <point x="0.682" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-r\2\10006.png">
+                        <collision-poly>
+                            <point x="0.306" y="0.306" />
+                            <point x="0.29" y="0.71" />
+                            <point x="0.318" y="0.5" />
+                            <point x="0.318" y="0.318" />
+                            <point x="0.258" y="0.742" />
+                            <point x="0.27" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-face-r\2\10005.png">
+                        <collision-poly>
+                            <point x="0.452" y="0.548" />
+                            <point x="0.388" y="0.5" />
+                            <point x="0.218" y="0.782" />
+                            <point x="0.186" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="wall_pulse" pingpong="0" repeatcount="1" repeatto="0" sid="582250997063372" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pulse-face\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" />
+                </animation>
+                <animation framecount="8" loop="0" name="wall_pulse_up_maxe" pingpong="0" repeatcount="1" repeatto="0" sid="954222991154004" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pluss-up-maxe\10006.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="wall_pick_up" pingpong="0" repeatcount="1" repeatto="0" sid="655191463705888" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-pisks-up\10003.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="wall_gol_up_maxe" pingpong="0" repeatcount="1" repeatto="0" sid="959493995203984" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\wall-dfhbxrbhf-up-maxe\10002.png" />
+                </animation>
+                <animation framecount="2" loop="0" name="abilisk" pingpong="0" repeatcount="1" repeatto="0" sid="142275307211433" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\altar\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\altar\10002.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="blood" pingpong="0" repeatcount="1" repeatto="0" sid="429341994407801" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\blood\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="cristal" pingpong="0" repeatcount="1" repeatto="0" sid="889056542153056" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cristal\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="dead_body" pingpong="0" repeatcount="1" repeatto="0" sid="265044795672388" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-body\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="dead_head" pingpong="0" repeatcount="1" repeatto="0" sid="726604020650789" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dead-head\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="grass" pingpong="0" repeatcount="1" repeatto="0" sid="148520243710243" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\grass\2\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="leg_1" pingpong="0" repeatcount="1" repeatto="0" sid="517145187567827" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-1\10006.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="leg_2" pingpong="0" repeatcount="1" repeatto="0" sid="759044135644546" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-leg-2\10006.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="arm_1" pingpong="0" repeatcount="1" repeatto="0" sid="210328849794295" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-1\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="arm_2" pingpong="0" repeatcount="1" repeatto="0" sid="213000290114407" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-arm-2\10001.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="Player_Body" pingpong="0" repeatcount="1" repeatto="0" sid="805581717833696" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\player-body\10006.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="magick" pingpong="0" repeatcount="1" repeatto="0" sid="870430776877886" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508333" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\1.png">
+                        <collision-poly>
+                            <point x="0.208333" y="0.208333" />
+                            <point x="0.5" y="0.0916667" />
+                            <point x="0.791667" y="0.208333" />
+                            <point x="0.916667" y="0.5" />
+                            <point x="0.8" y="0.8" />
+                            <point x="0.5" y="0.916667" />
+                            <point x="0.208333" y="0.791667" />
+                            <point x="0.0916667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="slime_1" pingpong="0" repeatcount="1" repeatto="0" sid="877981112949954" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-1\10005.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="slime_2" pingpong="0" repeatcount="1" repeatto="0" sid="341738787266008" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-2\10005.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="slime_3" pingpong="0" repeatcount="1" repeatto="0" sid="657483618773602" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\slime-3\10005.png" />
+                </animation>
+                <animation framecount="2" loop="0" name="cursore" pingpong="0" repeatcount="1" repeatto="0" sid="939739088123125" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cursore\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\cursore\10002.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="fireBoll" pingpong="0" repeatcount="1" repeatto="0" sid="977597294193288" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\magick\10004.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="light_floor" pingpong="0" repeatcount="1" repeatto="0" sid="347621876822347" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\LightFloor\10008.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="up_floor" pingpong="0" repeatcount="1" repeatto="0" sid="512137393923146" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10008.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10007.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10006.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up\10002.png" />
+                </animation>
+                <animation framecount="4" loop="0" name="up_up" pingpong="0" repeatcount="1" repeatto="0" sid="687454477456387" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up-up\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up-up\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\up-up\10006.png" />
+                </animation>
+                <animation framecount="8" loop="0" name="dor" pingpong="0" repeatcount="1" repeatto="0" sid="431866159055751" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dor\10005.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dor\10004.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dor\10003.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dor\10002.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.74" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\3d-2\dor\10001.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="explosion_1" pingpong="0" repeatcount="1" repeatto="0" sid="276142277079091" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\exp\1-1.png">
+                        <collision-poly>
+                            <point x="0.452" y="0.452" />
+                            <point x="0.576" y="0.424" />
+                            <point x="0.672" y="0.5" />
+                            <point x="0.64" y="0.64" />
+                            <point x="0.5" y="0.636" />
+                            <point x="0.394" y="0.606" />
+                            <point x="0.304" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="explosion_2" pingpong="0" repeatcount="1" repeatto="0" sid="277312322069342" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\exp\1-2.png">
+                        <collision-poly>
+                            <point x="0.362" y="0.362" />
+                            <point x="0.5" y="0.452" />
+                            <point x="0.626" y="0.374" />
+                            <point x="0.69" y="0.5" />
+                            <point x="0.634" y="0.634" />
+                            <point x="0.5" y="0.6" />
+                            <point x="0.308" y="0.692" />
+                            <point x="0.278" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="explosion_3" pingpong="0" repeatcount="1" repeatto="0" sid="460417208415757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\exp\1-3.png">
+                        <collision-poly>
+                            <point x="0.394" y="0.394" />
+                            <point x="0.5" y="0.248" />
+                            <point x="0.634" y="0.366" />
+                            <point x="0.852" y="0.852" />
+                            <point x="0.5" y="0.54" />
+                            <point x="0.2" y="0.8" />
+                            <point x="0.218" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="explosion_4" pingpong="0" repeatcount="1" repeatto="0" sid="609547319651745" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\exp\1-4.png">
+                        <collision-poly>
+                            <point x="0.296" y="0.296" />
+                            <point x="0.5" y="0.198" />
+                            <point x="0.426" y="0.574" />
+                            <point x="0.686" y="0.5" />
+                            <point x="0.47" y="0.47" />
+                            <point x="0.5" y="0.476" />
+                            <point x="0.396" y="0.604" />
+                            <point x="0.21" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="explosion_5" pingpong="0" repeatcount="1" repeatto="0" sid="444042274930204" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\exp\1-5.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.158" />
+                            <point x="0.24" y="0.76" />
+                            <point x="0.206" y="0.5" />
+                            <point x="0.5" y="0.272" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.168" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fire_1" pingpong="0" repeatcount="1" repeatto="0" sid="363294002812110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\fire\1-1.png">
+                        <collision-poly>
+                            <point x="0.528" y="0.528" />
+                            <point x="0.488" y="0.512" />
+                            <point x="0.582" y="0.5" />
+                            <point x="0.592" y="0.592" />
+                            <point x="0.48" y="0.52" />
+                            <point x="0.422" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fire_2" pingpong="0" repeatcount="1" repeatto="0" sid="962419312896105" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\fire\1-2.png">
+                        <collision-poly>
+                            <point x="0.462" y="0.462" />
+                            <point x="0.5" y="0.436" />
+                            <point x="0.524" y="0.476" />
+                            <point x="0.55" y="0.5" />
+                            <point x="0.53" y="0.53" />
+                            <point x="0.5" y="0.568" />
+                            <point x="0.466" y="0.534" />
+                            <point x="0.462" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fire_3" pingpong="0" repeatcount="1" repeatto="0" sid="532168071861408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\fire\1-3.png">
+                        <collision-poly>
+                            <point x="0.43" y="0.43" />
+                            <point x="0.5" y="0.482" />
+                            <point x="0.576" y="0.424" />
+                            <point x="0.626" y="0.5" />
+                            <point x="0.51" y="0.51" />
+                            <point x="0.5" y="0.686" />
+                            <point x="0.398" y="0.602" />
+                            <point x="0.354" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fire_4" pingpong="0" repeatcount="1" repeatto="0" sid="412722414100192" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\fire\1-4.png">
+                        <collision-poly>
+                            <point x="0.546" y="0.546" />
+                            <point x="0.5" y="0.52" />
+                            <point x="0.492" y="0.508" />
+                            <point x="0.472" y="0.5" />
+                            <point x="0.596" y="0.596" />
+                            <point x="0.5" y="0.664" />
+                            <point x="0.414" y="0.586" />
+                            <point x="0.382" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fire_5" pingpong="0" repeatcount="1" repeatto="0" sid="313553158233757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\fire\1-5.png">
+                        <collision-poly>
+                            <point x="0.458" y="0.542" />
+                            <point x="0.45" y="0.5" />
+                            <point x="0.45" y="0.55" />
+                            <point x="0.434" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Object2d" sid="599719668868237">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Z" sid="288180547256436" type="number" />
+                <instance-variable name="ProjectionX" sid="537894189860924" type="number" />
+                <instance-variable name="ProjectionY" sid="749119415553744" type="number" />
+                <instance-variable name="LightPower" sid="267832279544233" type="number" />
+                <instance-variable name="SubLight" sid="153753907294272" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="495606701211870">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="326076871826648">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="24" loop="0" name="main" pingpong="0" repeatcount="1" repeatto="0" sid="538123878965899" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.226563" y="0.164063" />
+                            <point x="0.515625" y="0.132813" />
+                            <point x="0.828125" y="0.210938" />
+                            <point x="0.914063" y="0.515625" />
+                            <point x="0.8125" y="0.796875" />
+                            <point x="0.5" y="0.835938" />
+                            <point x="0.1875" y="0.742188" />
+                            <point x="0.140625" y="0.476563" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.324219" y="0.316406" />
+                            <point x="0.683594" y="0.335938" />
+                            <point x="0.613281" y="0.675781" />
+                            <point x="0.308594" y="0.667969" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.429688" y="0.503906" />
+                            <point x="0.4375" y="0.488281" />
+                            <point x="0.414063" y="0.492188" />
+                            <point x="0.433594" y="0.496094" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.433594" y="0.484375" />
+                            <point x="0.425781" y="0.476563" />
+                            <point x="0.433594" y="0.480469" />
+                            <point x="0.433594" y="0.492188" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.445313" y="0.480469" />
+                            <point x="0.453125" y="0.492188" />
+                            <point x="0.449219" y="0.496094" />
+                            <point x="0.449219" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.570313" y="0.617188" />
+                            <point x="0.570313" y="0.613281" />
+                            <point x="0.570313" y="0.617188" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerZond" sid="284198540490393">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="rotate" sid="379381980376499" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="150701227814982">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839000232054831" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0" y="0.5" />
+                        <image-point name="Imagepoint 2" x="1" y="0.5" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="603715244609931">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="SliderBar" sid="976526603837509">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="Keyboard" sid="278892346405950">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Browser" sid="967585835801087">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Light" sid="877024259747494">
+            <plugin id="shadowlight" />
+        </object-type>
+        <object-type name="LightZond" sid="542764361009657">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="215804426037213" type="number" />
+                <instance-variable name="Power" sid="766173254493933" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="805079879233360" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="351554080579133">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="PlayerLeg" sid="880563399641806">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="legLR" sid="191605407026640" type="boolean" />
+                <instance-variable name="UIDAppender" sid="340070506570039" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="442609327313828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ARM" sid="931943833621212">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="587811560650952" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="597183252964532" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Dictionary" sid="945882513120217">
+            <plugin id="Dictionary" />
+        </object-type>
+        <object-type name="FireBoll" sid="455085474963335">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="708774915378825" type="number" />
+                <instance-variable name="LifeTimer" sid="152228710290022" type="number" />
+                <instance-variable name="LV" sid="482089683098157" type="number" />
+                <instance-variable name="Dammage" sid="433475619430004" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="587611048379461">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570601464072447" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Explosion" sid="814335166572377">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="670737343012175" type="number" />
+                <instance-variable name="Frame" sid="355926826134749" type="number" />
+                <instance-variable name="LV" sid="350838193700832" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299232077046815" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="UiMagicSpell" sid="359085130014842">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="908791718186584" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\skill 3.png">
+                        <collision-poly>
+                            <point x="0.284" y="0.284" />
+                            <point x="0.5" y="0.14" />
+                            <point x="0.61" y="0.39" />
+                            <point x="0.584" y="0.5" />
+                            <point x="0.598" y="0.598" />
+                            <point x="0.5" y="0.892" />
+                            <point x="0.286" y="0.714" />
+                            <point x="0.218" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\skill 2.png">
+                        <collision-poly>
+                            <point x="0.398" y="0.398" />
+                            <point x="0.5" y="0.38" />
+                            <point x="0.592" y="0.408" />
+                            <point x="0.506" y="0.5" />
+                            <point x="0.57" y="0.57" />
+                            <point x="0.5" y="0.748" />
+                            <point x="0.278" y="0.722" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\skill 1.png">
+                        <collision-poly>
+                            <point x="0.468" y="0.468" />
+                            <point x="0.5" y="0.34" />
+                            <point x="0.65" y="0.35" />
+                            <point x="0.744" y="0.5" />
+                            <point x="0.67" y="0.67" />
+                            <point x="0.5" y="0.622" />
+                            <point x="0.398" y="0.602" />
+                            <point x="0.196" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="XpBar" sid="546500834429961">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308448747763131" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\XPBa\4.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842222" y="0.284" />
+                            <point x="0.761111" y="0.5" />
+                            <point x="0.743333" y="0.538" />
+                            <point x="0.5" y="0.826" />
+                            <point x="0.0244444" y="0.956" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\XPBa\3.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842222" y="0.284" />
+                            <point x="0.761111" y="0.5" />
+                            <point x="0.743333" y="0.538" />
+                            <point x="0.5" y="0.826" />
+                            <point x="0.0244444" y="0.956" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\XPBa\2.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842222" y="0.284" />
+                            <point x="0.761111" y="0.5" />
+                            <point x="0.743333" y="0.538" />
+                            <point x="0.5" y="0.826" />
+                            <point x="0.0244444" y="0.956" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\XPBa\1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842222" y="0.284" />
+                            <point x="0.761111" y="0.5" />
+                            <point x="0.743333" y="0.538" />
+                            <point x="0.5" y="0.826" />
+                            <point x="0.0244444" y="0.956" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Slime" sid="493231104028138">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="120146168442315" type="number" />
+                <instance-variable name="AttackTime" sid="923757879129440" type="number" />
+                <instance-variable name="XP" sid="872133645528641" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LineOfSight" sid="990210482402109">
+                    <behavior id="LOS" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="722792990456044">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212887921863433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.320313" y="0.273438" />
+                            <point x="0.78125" y="0.359375" />
+                            <point x="0.789063" y="0.664063" />
+                            <point x="0.3125" y="0.578125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ARMUID" sid="330616533016291">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="421299424999240" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="172989223224490" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Dor" sid="104233140696612">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="GoToLevel" sid="871787298258777" type="number" />
+                <instance-variable name="UIDAppend" sid="846806343988008" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453928125503801" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0.5" y="-1" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="XpGet" sid="627987887474089">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331667880297852" speed="16">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\2.png" />
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\4.png" />
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\5.png" />
+                    <frame duration="2" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\LvUp\7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ManaBar" sid="986706920386461">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917091034770875" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\mana 1.png">
+                        <collision-poly>
+                            <point x="0.194" y="0.194" />
+                            <point x="0.5" y="0.074" />
+                            <point x="0.788" y="0.212" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.794" y="0.794" />
+                            <point x="0.5" y="0.956" />
+                            <point x="0.208" y="0.792" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ManaBarMask" sid="316964444981166">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="304424684696375" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\mask 1-2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\mask 1-3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\mask 1-4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\mask 1-5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="714492850074172">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367043744213637" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Mag\fon 1.png">
+                        <collision-poly>
+                            <point x="0.154" y="0.154" />
+                            <point x="0.5" y="0.266" />
+                            <point x="0.808" y="0.192" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.386" />
+                            <point x="0.196" y="0.804" />
+                            <point x="0.078" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="964548896281676">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648433328352730" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\авы на раб. стол\mod v 2 2.png">
+                        <collision-poly>
+                            <point x="0.184896" y="0.184896" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.901042" y="0.5" />
+                            <point x="0.78125" y="0.78125" />
+                            <point x="0.5" y="0.942708" />
+                            <point x="0.221354" y="0.778646" />
+                            <point x="0.0989583" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="111076782173404">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856562025289574" speed="5">
+                    <frame duration="1" hotspotX="0.500805" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\logo.png">
+                        <collision-poly>
+                            <point x="0.0257649" y="0.0808081" />
+                            <point x="0.499195" y="0" />
+                            <point x="0.974235" y="0.0808081" />
+                            <point x="0.991948" y="0.5" />
+                            <point x="0.89533" y="0.671717" />
+                            <point x="0.499195" y="0.257576" />
+                            <point x="0.0853462" y="0.732323" />
+                            <point x="0.00966184" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="643136959368611">
+            <plugin id="Spritefont2" />
+            <texture original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Font.png" />
+        </object-type>
+        <object-type name="Meny_Fon" sid="814457839642058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="719581232969501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Logo" sid="501250750013264">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201002323347940" speed="0">
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Main — копия.png">
+                        <collision-poly>
+                            <point x="0.0979228" y="0.183333" />
+                            <point x="0.498516" y="0.161111" />
+                            <point x="0.866469" y="0.25" />
+                            <point x="0.88724" y="0.5" />
+                            <point x="0.875371" y="0.766667" />
+                            <point x="0.498516" y="0.766667" />
+                            <point x="0.10089" y="0.811111" />
+                            <point x="0.0504451" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Block.png">
+                        <collision-poly>
+                            <point x="0.154303" y="0.288889" />
+                            <point x="0.498516" y="0.277778" />
+                            <point x="0.833828" y="0.311111" />
+                            <point x="0.836795" y="0.5" />
+                            <point x="0.827893" y="0.677778" />
+                            <point x="0.498516" y="0.733333" />
+                            <point x="0.151335" y="0.716667" />
+                            <point x="0.130564" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Main — копия.png">
+                        <collision-poly>
+                            <point x="0.0979228" y="0.183333" />
+                            <point x="0.498516" y="0.161111" />
+                            <point x="0.866469" y="0.25" />
+                            <point x="0.88724" y="0.5" />
+                            <point x="0.875371" y="0.766667" />
+                            <point x="0.498516" y="0.766667" />
+                            <point x="0.10089" y="0.811111" />
+                            <point x="0.0504451" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.745455" hotspotY="0.484536" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Block_2.png">
+                        <image-point name="Imagepoint 1" x="0.879545" y="0.474227" />
+                        <collision-poly>
+                            <point x="0.0318182" y="0.103093" />
+                            <point x="0.481818" y="0.0618557" />
+                            <point x="0.938636" y="0.0721649" />
+                            <point x="0.988636" y="0.494845" />
+                            <point x="0.940909" y="0.927835" />
+                            <point x="0.0295455" y="0.896907" />
+                            <point x="0.0136364" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="752329238260643">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Call" sid="392902530604741" type="string" />
+            </instance-variables>
+            <effects>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230476588556466" speed="5">
+                    <frame duration="1" hotspotX="0.526104" hotspotY="0.494845" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Block.png">
+                        <collision-poly>
+                            <point x="0.0562249" y="0.103093" />
+                            <point x="0.522088" y="0.0824743" />
+                            <point x="0.975904" y="0.14433" />
+                            <point x="0.97992" y="0.494845" />
+                            <point x="0.967871" y="0.824742" />
+                            <point x="0.522088" y="0.927835" />
+                            <point x="0.0522088" y="0.896907" />
+                            <point x="0.0240964" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LoadRotate" sid="778980619099488">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="138062483076907">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963939016318507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\Load.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.046" />
+                            <point x="0.806" y="0.194" />
+                            <point x="0.104" y="0.5" />
+                            <point x="0.5" y="0.94" />
+                            <point x="0.224" y="0.776" />
+                            <point x="0.084" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Click" sid="766055609023395">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Variable1" sid="576144217196289" type="boolean" />
+                <instance-variable name="Name" sid="270282442475691" type="number" />
+                <instance-variable name="UIDAppend" sid="289476844244473" type="number" />
+                <instance-variable name="Names" sid="167365631663970" type="string" />
+            </instance-variables>
+            <container>
+                <type>Click</type>
+                <type>Text</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753930812945544" speed="5">
+                    <frame duration="1" hotspotX="0.568421" hotspotY="0.493976" original-source="C:\Users\rfnei\OneDrive\Рабочий стол\game test 1-1-1\UI\Rect.png">
+                        <collision-poly>
+                            <point x="0.98421" y="0.138554" />
+                            <point x="0.926316" y="0.855422" />
+                            <point x="0.257895" y="0.927711" />
+                            <point x="0.236842" y="0.0662647" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="638858445714985">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="UIDAppend" sid="216530762876646" type="number" />
+            </instance-variables>
+            <container>
+                <type>Click</type>
+                <type>Text</type>
+            </container>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>GAME_1.xml</layout>
+        <layout>GAME_2.xml</layout>
+        <layout>GAME_3.xml</layout>
+        <layout>Meny.xml</layout>
+        <layout>Load.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>GameEvents1.xml</event-sheet>
+        <event-sheet>GameEvents2.xml</event-sheet>
+        <event-sheet>Settings.xml</event-sheet>
+        <event-sheet>MenuEvents.xml</event-sheet>
+        <event-sheet>GameEvents3.xml</event-sheet>
+        <event-sheet>LoadEvents.xml</event-sheet>
+        <event-sheet>BlackFon.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Function" uid="72" />
+        <global-instance type="Keyboard" uid="74" />
+        <global-instance type="Browser" uid="175" />
+        <global-instance type="Mouse" uid="178" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
