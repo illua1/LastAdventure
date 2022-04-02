@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>BlackFon</name>
+    <events>
+        <event-block sid="194665330654214">
+            <conditions>
+                <condition id="-17" name="Compare opacity" sid="814943624900678" type="System">
+                    <param id="0" name="Layer">&quot;Black&quot;</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Opacity">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-18" name="Set layer opacity" sid="670751639590313" type="System">
+                    <param id="0" name="Layer">&quot;Black&quot;</param>
+                    <param id="1" name="Opacity">lerp(&#x0D;&#x0A;0,&#x0D;&#x0A;LayerOpacity(&quot;Black&quot;),&#x0D;&#x0A;0.9&#x0D;&#x0A;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="670145245027658">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="791034344711423" type="System" />
+            </conditions>
+            <actions>
+                <action id="-18" name="Set layer opacity" sid="295061423933392" type="System">
+                    <param id="0" name="Layer">&quot;Black&quot;</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

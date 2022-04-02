@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuEvents</name>
+    <events>
+        <include>BlackFon</include>
+        <event-block sid="339530782531090">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="769135928539458" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="647593993705682" type="Function">
+                    <param id="0" name="Name">&quot;ButtonSetLinePose&quot;</param>
+                    <param id="1" name="Parameter {n}">Logo.X{###}Logo.Y+130</param>
+                </action>
+                <action id="0" name="Call function" sid="513818289761693" type="Function">
+                    <param id="0" name="Name">&quot;Button&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;1Level&quot;{###}&quot;НОВАЯ ИГРА&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="388759145186769" type="Function">
+                    <param id="0" name="Name">&quot;Button&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;Load&quot;{###}&quot;СОХРАНЕНИЕ&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="790463775712765" title="Class">
+            <sub-events>
+                <event-group description="" sid="641718731398850" title="List">
+                    <sub-events>
+                        <event-block sid="771827399751532">
+                            <conditions>
+                                <condition id="0" name="On function" sid="562274989172704" type="Function">
+                                    <param id="0" name="Name">&quot;1Level&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="552615443208187" type="System">
+                                    <param id="0" name="Layout">GAME_1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="140562412462850">
+                            <conditions>
+                                <condition id="0" name="On function" sid="121425076691606" type="Function">
+                                    <param id="0" name="Name">&quot;Load&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-37" name="Load" sid="967961520844810" type="System">
+                                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="222998287057662">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="602187946864772" type="Mouse">
+                            <param id="0" name="Object">Button</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="283304600144156" type="Button">
+                            <param id="0" name="Effect">&quot;AdjustHSL&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="988355530652684">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="721806985148456" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="472959278425626" type="Button">
+                            <param id="0" name="Effect">&quot;AdjustHSL&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="118243827991112">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="984625989462314" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Button</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="914608582795517" type="Function">
+                            <param id="0" name="Name">Button.Call</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="X" sid="574419776016528" static="1" type="number">0</variable>
+                <variable constant="0" name="Y" sid="335503772187488" static="1" type="number">0</variable>
+                <event-block sid="798834455311128">
+                    <conditions>
+                        <condition id="0" name="On function" sid="670058185418238" type="Function">
+                            <param id="0" name="Name">&quot;Button&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="801200944763378" type="System">
+                            <param id="0" name="Object to create">Button</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="X">X</param>
+                            <param id="3" name="Y">Y</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="700620315356318" type="Button">
+                            <param id="0" name="Instance variable">Call</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="486486057586615" type="System">
+                            <param id="0" name="Variable">Y</param>
+                            <param id="1" name="Value">Button.Height</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="194212511588701" type="System">
+                            <param id="0" name="Object to create">SpriteFont</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="X">0</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="491282036721484" type="SpriteFont">
+                            <param id="0" name="Object">Button</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action id="0" name="Set text" sid="677591890406665" type="SpriteFont">
+                            <param id="0" name="Text">Function.Param(1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="237520092505956">
+                    <conditions>
+                        <condition id="0" name="On function" sid="543690167630066" type="Function">
+                            <param id="0" name="Name">&quot;ButtonSetLinePose&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="194566808613495" type="System">
+                            <param id="0" name="Variable">X</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="706155466930784" type="System">
+                            <param id="0" name="Variable">Y</param>
+                            <param id="1" name="Value">Function.Param(1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

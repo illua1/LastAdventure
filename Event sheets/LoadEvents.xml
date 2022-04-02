@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LoadEvents</name>
+    <events>
+        <event-group description="" sid="107299687512743" title="Load">
+            <sub-events>
+                <variable constant="0" name="Go" sid="568946196550760" static="1" type="number">0</variable>
+                <variable constant="0" name="Timer" sid="504478880282706" static="1" type="number">0</variable>
+                <event-block sid="530230876625692">
+                    <conditions>
+                        <condition id="-25" name="On loader layout complete" sid="355530202889995" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="816361238723020" type="System">
+                            <param id="0" name="Variable">Go</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="823267612449058">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="709094515769062" type="System">
+                            <param id="0" name="Variable">Go</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="302539570710452" type="System">
+                            <param id="0" name="Layout">Meny</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="452603641420750">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="690338693810398" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="413118038129442" type="System">
+                            <param id="0" name="Layer">&quot;Black&quot;</param>
+                            <param id="1" name="Opacity">lerp(&#x0D;&#x0A;0,&#x0D;&#x0A;LayerOpacity(&quot;Black&quot;),&#x0D;&#x0A;0.9&#x0D;&#x0A;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="522531026425812">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="911036212858983" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="432596547543491" type="Sprite2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="471245730315045" type="Sprite3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="754095811644932" type="LoadRotate">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="393171488250911" type="SpriteFont">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="487623540028740">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="742589236074189" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="929835094843937" type="Function">
+                            <param id="0" name="Name">&quot;Logo&quot;</param>
+                            <param id="1" name="Parameter {n}">0{###}60{###}&quot;Logo_1&quot;{###}1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="695629209426613" type="Function">
+                            <param id="0" name="Name">&quot;Logo&quot;</param>
+                            <param id="1" name="Parameter {n}">60{###}120{###}&quot;Logo_2&quot;{###}1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="351938374165509" type="Function">
+                            <param id="0" name="Name">&quot;Logo&quot;</param>
+                            <param id="1" name="Parameter {n}">120{###}130{###}&quot;Logo_3&quot;{###}0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751055031907533">
+                    <conditions>
+                        <condition id="0" name="On function" sid="398455640380277" type="Function">
+                            <param id="0" name="Name">&quot;Logo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="952099172514094">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="218192788950326" type="System">
+                                    <param id="0" name="Variable">Timer</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">Function.Param(0)</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="675638977253982" type="System">
+                                    <param id="0" name="Variable">Timer</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">Function.Param(1)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="499663193390506" type="System">
+                                    <param id="0" name="Variable">Timer</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="484331030452490" type="Function">
+                                    <param id="0" name="Name">Function.Param(2)</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="900753527326617">
+                            <conditions>
+                                <condition id="1" name="Compare parameter" sid="233727043564976" type="Function">
+                                    <param id="0" name="Index">3</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="160187921149603">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="396402908332004" type="System">
+                                            <param id="0" name="Variable">Timer</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">Function.Param(0)+1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-18" name="Set layer opacity" sid="192302974411243" type="System">
+                                            <param id="0" name="Layer">&quot;Black&quot;</param>
+                                            <param id="1" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="547985692072495">
+                    <conditions>
+                        <condition id="0" name="On function" sid="684734175954497" type="Function">
+                            <param id="0" name="Name">&quot;Logo_1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="647083338028661" type="Sprite2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="135550634171583" type="Sprite3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="319439015697100">
+                    <conditions>
+                        <condition id="0" name="On function" sid="765107899224129" type="Function">
+                            <param id="0" name="Name">&quot;Logo_2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="338969239035368" type="Sprite2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="723784591695833" type="Sprite3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="873782498931590">
+                    <conditions>
+                        <condition id="0" name="On function" sid="407735939192798" type="Function">
+                            <param id="0" name="Name">&quot;Logo_3&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="645700944317449" type="SpriteFont">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="997540898394376" type="LoadRotate">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="445984047788515" type="Sprite3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="369843470603590" type="System">
+                            <param id="0" name="Variable">Go</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

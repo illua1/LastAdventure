@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Settings</name>
+    <events>
+        <variable constant="0" name="LastGameLv" sid="893229301202373" static="0" type="number">-1</variable>
+        <variable constant="0" name="PlayerLV" sid="541472637309530" static="0" type="number">1</variable>
+        <variable constant="0" name="XP" sid="980555479922933" static="0" type="number">4</variable>
+        <variable constant="0" name="Mana" sid="845981200618941" static="0" type="number">5</variable>
+        <variable constant="0" name="ColorDarkR" sid="207655672016899" static="0" type="number">100</variable>
+        <variable constant="0" name="ColorDarkG" sid="252161511038344" static="0" type="number">0</variable>
+        <variable constant="0" name="ColorDarkB" sid="671557596295632" static="0" type="number">0</variable>
+        <variable constant="0" name="ColorLightR" sid="928272828442115" static="0" type="number">100</variable>
+        <variable constant="0" name="ColorLightG" sid="691822227952437" static="0" type="number">100</variable>
+        <variable constant="0" name="ColorLightB" sid="449758768620051" static="0" type="number">100</variable>
+    </events>
+</c2eventsheet>
